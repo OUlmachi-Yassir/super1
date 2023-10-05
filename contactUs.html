@@ -12,12 +12,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/_c70900bf-9fd4-4765-8ed0-c509ddc8f540.jpg">
 
 </head>
 <body>
 	<!--header--->
 	<header>
-		<img src="img\TRAVIGO__1_-removebg-preview (1).png" height="150px" width="150px"  >
+		<a href="index.html"  class="logo">TRA VI GO</a>
 		<div class="bx bx-menu" id="menu-icon"></div>
 
 		<ul class="navbar">
@@ -32,10 +33,15 @@
 			<h1>Travigo <br> Travel</h1>
 			<!--Newsletter--->
 	        <section class="newsletter">
+                <div class="news-text">
+                    <h2>Newsletter</h2>
+                    <p>Subscribe For more HTML, CSS, and <br> coding tutorials</p>
+                </div>
 
 		        <div class="send">
 			        <form>
-				        <input type="text" placeholder="how can i help you ?" required>
+                        
+				        <input type="email" placeholder="Email:" required>
 				        <input type="submit" value="Submit">
 			        </form>
 		        </div>
@@ -43,6 +49,26 @@
 			
 		</div>
 	</section>
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="traitement.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
     <!--footer--->
 <section id="contact">
     <div class="footer">
