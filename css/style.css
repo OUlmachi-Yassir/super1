@@ -11,7 +11,7 @@
 	--bg-color: #fff;
 	--text-color: #221314;
 	--second-color: #5a7184;
-	--main-color: #6e54fa;
+	--main-color: #2c2838;
 	--big-font: 6rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -303,7 +303,7 @@ header.sticky{
     
     padding: 80px 10%;
     text-align: center;
-	background-color: #a6cbf6;
+	background-color: #071e386b;
 	border-radius:20%;
 }
 
@@ -330,7 +330,7 @@ header.sticky{
 .contact-form textarea {
     width: 100%;
     padding: 15px;
-    border: 1px solid #3936e8;
+    border: 10px solid #000000;
     border-radius: 40px;
     font-size: var(--p-font);
     color: var(--text-color);
